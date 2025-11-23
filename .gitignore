@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+env/
+venv/
+.venv/
+
+# FastAPI logs
+*.log
+
+# Node
+node_modules/
+dist/
+build/
+
+# Vite
+.svelte-kit/
+.vscode/
+.DS_Store
+
+# Environment
+*.env
+
+# Production build
+surakshalens-frontend/dist/

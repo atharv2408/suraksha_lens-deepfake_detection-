@@ -62,4 +62,71 @@ Ready for:
 ---
 
 ## 📦 Project Structure
+surakshalens-ai/
+│
+├── backend/
+│ ├── app/
+│ │ ├── main.py
+│ │ ├── api/routes.py
+│ │ ├── core/config.py
+│ │ ├── services/deepfake_detector.py
+│ │ └── models/weights/deepfake_efficientnet_best.pth
+│
+└── surakshalens-frontend/
+├── src/
+│ ├── pages/
+│ ├── components/
+│ ├── utils/api.js
+│ └── App.jsx
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### **Backend**
+```bash
+cd backend
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+Backend runs on:
+👉 http://127.0.0.1:8000
+
+cd surakshalens-frontend
+npm install
+npm run dev
+
+Frontend runs on:
+👉 http://127.0.0.1:5173
+
+API Routes
+Route	Method	Description
+/api/v1/deepfake/analyze	POST	Analyze image deepfake
+/api/v1/complaint/generate	POST	Generate complaint draft
+
+📄 License
+
+MIT License
+
+👨‍💻 Author
+
+Atharv S. Munj
+BSC TYCS • AI & Deep Learning Enthusiast
+📧 atharvmunj24@gmail.com
+
+⭐ Support the project
+
+If you like this project, give the repository a Star ⭐ on GitHub!
+
+
+---
+
+If you want, I can also generate:
+
+✅ A **project banner image**  
+✅ A **logo for SurakshaLens**  
+✅ A **badges section** (version, license, tech stack icons)  
+Just tell me — type **2** for next step!
 

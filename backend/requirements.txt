@@ -2,6 +2,8 @@ fastapi
 uvicorn
 python-multipart
 pillow
-torch
 numpy
 pydantic
+pydantic-settings
+torch==2.2.2+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
